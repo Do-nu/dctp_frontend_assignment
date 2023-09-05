@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+th {
+  background-color: aqua;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.female {
+  background-color: hotpink;
+}
+
+.male {
+  background-color: aqua;
+}
+
+@media (max-width: 768px) {
+  th,
+  td {
+    padding: 6px;
+    font-size: 12px;
+  }
+}
